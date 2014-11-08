@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c
+stdio.h
+-
+malloc.h
+-
+

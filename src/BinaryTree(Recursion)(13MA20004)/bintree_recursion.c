@@ -26,12 +26,16 @@ node *construct()
  	return k;
 }
 
-void pt(node *head)
-{
-	int t;
-	if(head!=NULL)
-	{
-		if(head!=NULL)	
+// void pt(node *head)
+// {
+// 	int t;
+// 	if(head!=NULL)
+// 	{
+// 		if(head!=NULL)	
 		
-	}
+// 	}
+// }
+main()
+{
+	// The Program still needs to be written
 }

@@ -1,0 +1,1 @@
+/usr/bin/cc      "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o"  -o BinTree_Recursion/Bintree_recursion -rdynamic 

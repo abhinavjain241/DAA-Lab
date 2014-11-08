@@ -1,0 +1,13 @@
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/BinTree_Recursion/Bintree_recursion.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/BinTree_Rotation/bintree_rot1.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/BinTree_Rotation/bintree_rot2.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/BinTree_Rotation/bintree_rot3.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/BinTree_Rotation/bintree_rot4.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/BinTree_Traversal/bintree_traversal.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Expression_Eval/Infix.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Expression_Eval/Postfix.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Expression_Eval/Prefix.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Matrix/matrix1.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Matrix/matrix2.dir

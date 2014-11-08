@@ -16,10 +16,10 @@ void printrow(int a[][10],int n,int k)
 	printf("\n");
 }
 
-int min(int a[][10], int n, int k)
-{
+// int min(int a[][10], int n, int k)
+// {
 
-}
+// }
 
 
 void printmat(int a[][10],int n)
