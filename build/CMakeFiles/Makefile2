@@ -508,6 +508,111 @@ clean: CMakeFiles/Matrix/matrix2.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir
+
+# All Build rule for target.
+CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/all:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/depend
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  14
+	@echo "Built target Polynomial_Addition/polynomialaddition_array0"
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/all
+
+# Include target in all.
+all: CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 0
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/rule
+
+# Convenience name for target.
+Polynomial_Addition/polynomialaddition_array0: CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/rule
+.PHONY : Polynomial_Addition/polynomialaddition_array0
+
+# clean rule for target.
+CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/clean:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/clean
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir
+
+# All Build rule for target.
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/all:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/depend
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  15
+	@echo "Built target Polynomial_Addition/polynomialaddition_array1"
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/all
+
+# Include target in all.
+all: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 0
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/rule
+
+# Convenience name for target.
+Polynomial_Addition/polynomialaddition_array1: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/rule
+.PHONY : Polynomial_Addition/polynomialaddition_array1
+
+# clean rule for target.
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/clean:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/clean
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir
+
+# All Build rule for target.
+CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/all:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/depend
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  16
+	@echo "Built target Polynomial_Addition/polynomialaddition_pointer"
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/all
+
+# Include target in all.
+all: CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 0
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/rule
+
+# Convenience name for target.
+Polynomial_Addition/polynomialaddition_pointer: CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/rule
+.PHONY : Polynomial_Addition/polynomialaddition_pointer
+
+# clean rule for target.
+CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/clean:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/clean
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -11,3 +11,6 @@
 /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Expression_Eval/Prefix.dir
 /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Matrix/matrix1.dir
 /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Matrix/matrix2.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir
+/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir

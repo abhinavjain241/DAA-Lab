@@ -1,4 +1,6 @@
+if [ ! -d "build" ]; then
 mkdir build
+fi
 cd build
 cmake ..
 if [ ! -d "Expression_Eval" ]; then
@@ -18,5 +20,8 @@ mkdir BinTree_Traversal
 fi
 if [ ! -d "Matrix" ]; then
 mkdir Matrix
+fi
+if [ ! -d "Polynomial_Addition" ]; then
+mkdir Polynomial_Addition
 fi
 make

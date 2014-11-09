@@ -267,6 +267,45 @@ Matrix/matrix2/fast:
 	$(MAKE) -f CMakeFiles/Matrix/matrix2.dir/build.make CMakeFiles/Matrix/matrix2.dir/build
 .PHONY : Matrix/matrix2/fast
 
+#=============================================================================
+# Target rules for targets named Polynomial_Addition/polynomialaddition_array0
+
+# Build rule for target.
+Polynomial_Addition/polynomialaddition_array0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Polynomial_Addition/polynomialaddition_array0
+.PHONY : Polynomial_Addition/polynomialaddition_array0
+
+# fast build rule for target.
+Polynomial_Addition/polynomialaddition_array0/fast:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build
+.PHONY : Polynomial_Addition/polynomialaddition_array0/fast
+
+#=============================================================================
+# Target rules for targets named Polynomial_Addition/polynomialaddition_array1
+
+# Build rule for target.
+Polynomial_Addition/polynomialaddition_array1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Polynomial_Addition/polynomialaddition_array1
+.PHONY : Polynomial_Addition/polynomialaddition_array1
+
+# fast build rule for target.
+Polynomial_Addition/polynomialaddition_array1/fast:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build
+.PHONY : Polynomial_Addition/polynomialaddition_array1/fast
+
+#=============================================================================
+# Target rules for targets named Polynomial_Addition/polynomialaddition_pointer
+
+# Build rule for target.
+Polynomial_Addition/polynomialaddition_pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Polynomial_Addition/polynomialaddition_pointer
+.PHONY : Polynomial_Addition/polynomialaddition_pointer
+
+# fast build rule for target.
+Polynomial_Addition/polynomialaddition_pointer/fast:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build
+.PHONY : Polynomial_Addition/polynomialaddition_pointer/fast
+
 src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.o: src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o
 .PHONY : src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.o
 
@@ -579,6 +618,78 @@ src/Matrix(13MA20004)/Matrix1.c.s:
 	$(MAKE) -f CMakeFiles/Matrix/matrix2.dir/build.make "CMakeFiles/Matrix/matrix2.dir/src/Matrix(13MA20004)/Matrix1.c.s"
 .PHONY : src/Matrix(13MA20004)/Matrix1.c.s
 
+src/PolynomialAddition(13MA20004)/merge_sorted_array0.o: src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.o
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.o
+
+# target to build an object file
+src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.o:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.o"
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.o
+
+src/PolynomialAddition(13MA20004)/merge_sorted_array0.i: src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.i
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.i
+
+# target to preprocess a source file
+src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.i:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.i"
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.i
+
+src/PolynomialAddition(13MA20004)/merge_sorted_array0.s: src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.s
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.s
+
+# target to generate assembly for a file
+src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.s:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.s"
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.s
+
+src/PolynomialAddition(13MA20004)/merge_sorted_list_0.o: src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.o
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.o
+
+# target to build an object file
+src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.o:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.o"
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.o
+
+src/PolynomialAddition(13MA20004)/merge_sorted_list_0.i: src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.i
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.i
+
+# target to preprocess a source file
+src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.i:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.i"
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.i
+
+src/PolynomialAddition(13MA20004)/merge_sorted_list_0.s: src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.s
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.s
+
+# target to generate assembly for a file
+src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.s:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.s"
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.s
+
+src/PolynomialAddition(13MA20004)/merge_sorted_list_1.o: src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.o
+
+# target to build an object file
+src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o"
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o
+
+src/PolynomialAddition(13MA20004)/merge_sorted_list_1.i: src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.i
+
+# target to preprocess a source file
+src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i"
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i
+
+src/PolynomialAddition(13MA20004)/merge_sorted_list_1.s: src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.s
+
+# target to generate assembly for a file
+src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s"
+.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -598,6 +709,9 @@ help:
 	@echo "... Expression_Eval/Prefix"
 	@echo "... Matrix/matrix1"
 	@echo "... Matrix/matrix2"
+	@echo "... Polynomial_Addition/polynomialaddition_array0"
+	@echo "... Polynomial_Addition/polynomialaddition_array1"
+	@echo "... Polynomial_Addition/polynomialaddition_pointer"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.o"
@@ -639,6 +753,15 @@ help:
 	@echo "... src/Matrix(13MA20004)/Matrix1.o"
 	@echo "... src/Matrix(13MA20004)/Matrix1.i"
 	@echo "... src/Matrix(13MA20004)/Matrix1.s"
+	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_array0.o"
+	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_array0.i"
+	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_array0.s"
+	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_0.o"
+	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_0.i"
+	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_0.s"
+	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_1.o"
+	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_1.i"
+	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_1.s"
 .PHONY : help
 
 
