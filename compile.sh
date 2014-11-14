@@ -6,6 +6,9 @@ cmake ..
 if [ ! -d "Expression_Eval" ]; then
 mkdir Expression_Eval
 fi
+if [ ! -d "Expression_Eval_Stack" ]; then
+mkdir Expression_Eval_Stack
+fi
 if [ ! -d "BinTree_Recursion" ]; then
 mkdir BinTree_Recursion
 fi

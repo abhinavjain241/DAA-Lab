@@ -19,3 +19,6 @@ add_executable(Matrix/matrix2 src/Matrix\(13MA20004\)/Matrix1.c)
 add_executable(Polynomial_Addition/polynomialaddition_pointer src/PolynomialAddition\(13MA20004\)/merge_sorted_list_0.c)
 add_executable(Polynomial_Addition/polynomialaddition_array0 src/PolynomialAddition\(13MA20004\)/merge_sorted_array0.c)
 add_executable(Polynomial_Addition/polynomialaddition_array1 src/PolynomialAddition\(13MA20004\)/merge_sorted_list_1.c)
+add_executable(Expression_Eval_Stack/eval_postfix src/ExpressionEvaluation\(Using\ Stack\)\(13MA20004\)/eval_postfix.c)
+add_executable(Expression_Eval_Stack/eval_prefix src/ExpressionEvaluation\(Using\ Stack\)\(13MA20004\)/eval_prefix.c)
+
