@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <malloc.h>
 
+
+//Define Node Data Structure
 typedef struct node
 {
 	int data;
@@ -9,6 +11,7 @@ typedef struct node
 } 
 node;
 
+//Construct an arbitrary Binary Tree
 node *construct()
 {
 	node *a,*b,*c,*d,*e,*f,*g,*h,*i,*j,*k,*l,*m,*n;
@@ -26,9 +29,11 @@ node *construct()
  	return k;
 }
 
-typedef struct stack{node *a[80]; int sp;} stack;
+//Define Stack 
+typedef struct stack{node *a[80];int sp;} stack;
 
-void push(stack *s,node *e){s->a[s->sp]=e;s->sp++;}
+//Define Push,Pop,Initialize,Empty functions
+void push(stack *s,node *e){s->a[s->sp]=e; s->sp++;}
 
 node *pop(stack *s){s->sp--; return s->a[s->sp];}
 
@@ -36,21 +41,7 @@ void initialize(stack *s){s->sp = 0;}
 
 int empty(stack s){ return s.sp; }
 
-void dft(node *root)
-{
-	node *t;
-	stack k;
-	initialize(&k);
-	push(&k,root);
-	while(empty(k)!=0)
-	{
-		t=pop(&k);
-		printf("%d,",t->data);
-		if(t->right!=NULL) push(&k, t->right);
-		if(t->left!=NULL) push(&k, t->left);
-	}
-}
-
+//Postorder Depth First Traversal
 void post_dft(node *root)
 {
 	node *t;
@@ -62,8 +53,8 @@ void post_dft(node *root)
 	{
 		t=pop(&k1);
 		push(&k2,t);
-		push(&k1,t->left);
-		push(&k1,t->right);
+		if(t->left!=NULL) push(&k1,t->left);
+		if(t->right!=NULL) push(&k1,t->right);
 	}
 	while(empty(k2)!=0)
 	{
@@ -71,10 +62,10 @@ void post_dft(node *root)
 	}
 }
 
+
 main()
 {
 node *root, *p, *q, *r, *s, *t;
 root = construct();
-post_dft(root);
+post_dft(root); //Postorder DFT
 }
-
