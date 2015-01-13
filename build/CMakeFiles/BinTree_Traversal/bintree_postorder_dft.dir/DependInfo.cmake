@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c" "/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/BinTree_Traversal/bintree_traversal.dir/src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.o"
+  "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Traversal)/bintree_postorder_dft.c" "/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/src/BinaryTree(Traversal)/bintree_postorder_dft.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

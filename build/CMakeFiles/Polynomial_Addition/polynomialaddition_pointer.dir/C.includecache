@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/abhinav/DAA-LAB/DAA-Lab/src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c
+/home/abhinav/DAA-LAB/DAA-Lab/src/PolynomialAddition/merge_sorted_list_0.c
 stdio.h
 -
 stdlib.h

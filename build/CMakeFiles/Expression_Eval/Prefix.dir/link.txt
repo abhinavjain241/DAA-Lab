@@ -1,1 +1,1 @@
-/usr/bin/cc      "CMakeFiles/Expression_Eval/Prefix.dir/src/ExpressionEvaluation(13MA20004)/prefix.c.o"  -o Expression_Eval/Prefix -rdynamic 
+/usr/bin/cc      CMakeFiles/Expression_Eval/Prefix.dir/src/ExpressionEvaluation/prefix.c.o  -o Expression_Eval/Prefix -rdynamic 

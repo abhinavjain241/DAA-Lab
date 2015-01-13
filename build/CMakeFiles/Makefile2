@@ -228,38 +228,108 @@ clean: CMakeFiles/BinTree_Rotation/bintree_rot4.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BinTree_Traversal/bintree_traversal.dir
+# Target rules for target CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir
 
 # All Build rule for target.
-CMakeFiles/BinTree_Traversal/bintree_traversal.dir/all:
-	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_traversal.dir/build.make CMakeFiles/BinTree_Traversal/bintree_traversal.dir/depend
-	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_traversal.dir/build.make CMakeFiles/BinTree_Traversal/bintree_traversal.dir/build
+CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/all:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/depend
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  6
-	@echo "Built target BinTree_Traversal/bintree_traversal"
-.PHONY : CMakeFiles/BinTree_Traversal/bintree_traversal.dir/all
+	@echo "Built target BinTree_Traversal/bintree_inorder_dft"
+.PHONY : CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/all
 
 # Include target in all.
-all: CMakeFiles/BinTree_Traversal/bintree_traversal.dir/all
+all: CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BinTree_Traversal/bintree_traversal.dir/rule: cmake_check_build_system
+CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BinTree_Traversal/bintree_traversal.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 0
-.PHONY : CMakeFiles/BinTree_Traversal/bintree_traversal.dir/rule
+.PHONY : CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/rule
 
 # Convenience name for target.
-BinTree_Traversal/bintree_traversal: CMakeFiles/BinTree_Traversal/bintree_traversal.dir/rule
-.PHONY : BinTree_Traversal/bintree_traversal
+BinTree_Traversal/bintree_inorder_dft: CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/rule
+.PHONY : BinTree_Traversal/bintree_inorder_dft
 
 # clean rule for target.
-CMakeFiles/BinTree_Traversal/bintree_traversal.dir/clean:
-	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_traversal.dir/build.make CMakeFiles/BinTree_Traversal/bintree_traversal.dir/clean
-.PHONY : CMakeFiles/BinTree_Traversal/bintree_traversal.dir/clean
+CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/clean:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/clean
+.PHONY : CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/BinTree_Traversal/bintree_traversal.dir/clean
+clean: CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir
+
+# All Build rule for target.
+CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/all:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/depend
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  7
+	@echo "Built target BinTree_Traversal/bintree_postorder_dft"
+.PHONY : CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/all
+
+# Include target in all.
+all: CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 0
+.PHONY : CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/rule
+
+# Convenience name for target.
+BinTree_Traversal/bintree_postorder_dft: CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/rule
+.PHONY : BinTree_Traversal/bintree_postorder_dft
+
+# clean rule for target.
+CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/clean:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/clean
+.PHONY : CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir
+
+# All Build rule for target.
+CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/all:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/depend
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  8
+	@echo "Built target BinTree_Traversal/bintree_preorder_dft"
+.PHONY : CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/all
+
+# Include target in all.
+all: CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 0
+.PHONY : CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/rule
+
+# Convenience name for target.
+BinTree_Traversal/bintree_preorder_dft: CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/rule
+.PHONY : BinTree_Traversal/bintree_preorder_dft
+
+# clean rule for target.
+CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/clean:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/clean
+.PHONY : CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -269,7 +339,7 @@ clean: CMakeFiles/BinTree_Traversal/bintree_traversal.dir/clean
 CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/all:
 	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/build.make CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/depend
 	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/build.make CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  9
 	@echo "Built target Dynamic_Set/dynamic_set_array_based"
 .PHONY : CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/all
 
@@ -304,7 +374,7 @@ clean: CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/clean
 CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/all:
 	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/build.make CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/depend
 	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/build.make CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  10
 	@echo "Built target Dynamic_Set/dynamic_set_pointer_based"
 .PHONY : CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/all
 
@@ -339,7 +409,7 @@ clean: CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/clean
 CMakeFiles/Expression_Eval/Infix.dir/all:
 	$(MAKE) -f CMakeFiles/Expression_Eval/Infix.dir/build.make CMakeFiles/Expression_Eval/Infix.dir/depend
 	$(MAKE) -f CMakeFiles/Expression_Eval/Infix.dir/build.make CMakeFiles/Expression_Eval/Infix.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  9
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  11
 	@echo "Built target Expression_Eval/Infix"
 .PHONY : CMakeFiles/Expression_Eval/Infix.dir/all
 
@@ -374,7 +444,7 @@ clean: CMakeFiles/Expression_Eval/Infix.dir/clean
 CMakeFiles/Expression_Eval/Postfix.dir/all:
 	$(MAKE) -f CMakeFiles/Expression_Eval/Postfix.dir/build.make CMakeFiles/Expression_Eval/Postfix.dir/depend
 	$(MAKE) -f CMakeFiles/Expression_Eval/Postfix.dir/build.make CMakeFiles/Expression_Eval/Postfix.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  10
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  12
 	@echo "Built target Expression_Eval/Postfix"
 .PHONY : CMakeFiles/Expression_Eval/Postfix.dir/all
 
@@ -409,7 +479,7 @@ clean: CMakeFiles/Expression_Eval/Postfix.dir/clean
 CMakeFiles/Expression_Eval/Prefix.dir/all:
 	$(MAKE) -f CMakeFiles/Expression_Eval/Prefix.dir/build.make CMakeFiles/Expression_Eval/Prefix.dir/depend
 	$(MAKE) -f CMakeFiles/Expression_Eval/Prefix.dir/build.make CMakeFiles/Expression_Eval/Prefix.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  11
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  13
 	@echo "Built target Expression_Eval/Prefix"
 .PHONY : CMakeFiles/Expression_Eval/Prefix.dir/all
 
@@ -438,13 +508,83 @@ clean: CMakeFiles/Expression_Eval/Prefix.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Expression_Eval_Stack/eval_postfix.dir
+
+# All Build rule for target.
+CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/all:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/build.make CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/depend
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/build.make CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  14
+	@echo "Built target Expression_Eval_Stack/eval_postfix"
+.PHONY : CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/all
+
+# Include target in all.
+all: CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 0
+.PHONY : CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/rule
+
+# Convenience name for target.
+Expression_Eval_Stack/eval_postfix: CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/rule
+.PHONY : Expression_Eval_Stack/eval_postfix
+
+# clean rule for target.
+CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/clean:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/build.make CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/clean
+.PHONY : CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Expression_Eval_Stack/eval_prefix.dir
+
+# All Build rule for target.
+CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/all:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/build.make CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/depend
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/build.make CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  15
+	@echo "Built target Expression_Eval_Stack/eval_prefix"
+.PHONY : CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/all
+
+# Include target in all.
+all: CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles 0
+.PHONY : CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/rule
+
+# Convenience name for target.
+Expression_Eval_Stack/eval_prefix: CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/rule
+.PHONY : Expression_Eval_Stack/eval_prefix
+
+# clean rule for target.
+CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/clean:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/build.make CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/clean
+.PHONY : CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Matrix/matrix1.dir
 
 # All Build rule for target.
 CMakeFiles/Matrix/matrix1.dir/all:
 	$(MAKE) -f CMakeFiles/Matrix/matrix1.dir/build.make CMakeFiles/Matrix/matrix1.dir/depend
 	$(MAKE) -f CMakeFiles/Matrix/matrix1.dir/build.make CMakeFiles/Matrix/matrix1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  12
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  16
 	@echo "Built target Matrix/matrix1"
 .PHONY : CMakeFiles/Matrix/matrix1.dir/all
 
@@ -479,7 +619,7 @@ clean: CMakeFiles/Matrix/matrix1.dir/clean
 CMakeFiles/Matrix/matrix2.dir/all:
 	$(MAKE) -f CMakeFiles/Matrix/matrix2.dir/build.make CMakeFiles/Matrix/matrix2.dir/depend
 	$(MAKE) -f CMakeFiles/Matrix/matrix2.dir/build.make CMakeFiles/Matrix/matrix2.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  13
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  17
 	@echo "Built target Matrix/matrix2"
 .PHONY : CMakeFiles/Matrix/matrix2.dir/all
 
@@ -514,7 +654,7 @@ clean: CMakeFiles/Matrix/matrix2.dir/clean
 CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/all:
 	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/depend
 	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  14
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  18
 	@echo "Built target Polynomial_Addition/polynomialaddition_array0"
 .PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/all
 
@@ -549,7 +689,7 @@ clean: CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/clean
 CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/all:
 	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/depend
 	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  15
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  19
 	@echo "Built target Polynomial_Addition/polynomialaddition_array1"
 .PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/all
 
@@ -584,7 +724,7 @@ clean: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/clean
 CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/all:
 	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/depend
 	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  16
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles  20
 	@echo "Built target Polynomial_Addition/polynomialaddition_pointer"
 .PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/all
 

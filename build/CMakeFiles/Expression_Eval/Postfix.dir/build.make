@@ -49,37 +49,37 @@ include CMakeFiles/Expression_Eval/Postfix.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Expression_Eval/Postfix.dir/flags.make
 
-CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o: CMakeFiles/Expression_Eval/Postfix.dir/flags.make
-CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o: ../src/ExpressionEvaluation(13MA20004)/postfix.c
+CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o: CMakeFiles/Expression_Eval/Postfix.dir/flags.make
+CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o: ../src/ExpressionEvaluation/postfix.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o "CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o"   -c "/home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation(13MA20004)/postfix.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o   -c /home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation/postfix.c
 
-CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E "/home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation(13MA20004)/postfix.c" > "CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.i"
+CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation/postfix.c > CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.i
 
-CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S "/home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation(13MA20004)/postfix.c" -o "CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.s"
+CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation/postfix.c -o CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.s
 
-CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o.requires:
-.PHONY : CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o.requires
+CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o.requires:
+.PHONY : CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o.requires
 
-CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o.provides: CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o.requires
-	$(MAKE) -f CMakeFiles/Expression_Eval/Postfix.dir/build.make "CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o.provides.build"
-.PHONY : CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o.provides
+CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o.provides: CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o.requires
+	$(MAKE) -f CMakeFiles/Expression_Eval/Postfix.dir/build.make CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o.provides.build
+.PHONY : CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o.provides
 
-CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o.provides.build: CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o
+CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o.provides.build: CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o
 
 # Object files for target Expression_Eval/Postfix
 Expression_Eval/Postfix_OBJECTS = \
-"CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o"
+"CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o"
 
 # External object files for target Expression_Eval/Postfix
 Expression_Eval/Postfix_EXTERNAL_OBJECTS =
 
-Expression_Eval/Postfix: CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o
+Expression_Eval/Postfix: CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o
 Expression_Eval/Postfix: CMakeFiles/Expression_Eval/Postfix.dir/build.make
 Expression_Eval/Postfix: CMakeFiles/Expression_Eval/Postfix.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable Expression_Eval/Postfix"
@@ -89,7 +89,7 @@ Expression_Eval/Postfix: CMakeFiles/Expression_Eval/Postfix.dir/link.txt
 CMakeFiles/Expression_Eval/Postfix.dir/build: Expression_Eval/Postfix
 .PHONY : CMakeFiles/Expression_Eval/Postfix.dir/build
 
-CMakeFiles/Expression_Eval/Postfix.dir/requires: CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o.requires
+CMakeFiles/Expression_Eval/Postfix.dir/requires: CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o.requires
 .PHONY : CMakeFiles/Expression_Eval/Postfix.dir/requires
 
 CMakeFiles/Expression_Eval/Postfix.dir/clean:

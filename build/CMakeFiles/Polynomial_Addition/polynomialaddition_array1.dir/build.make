@@ -49,37 +49,37 @@ include CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/progress.ma
 # Include the compile flags for this target's objects.
 include CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/flags.make
 
-CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/flags.make
-CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o: ../src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/flags.make
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o: ../src/PolynomialAddition/merge_sorted_list_1.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o"   -c "/home/abhinav/DAA-LAB/DAA-Lab/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o   -c /home/abhinav/DAA-LAB/DAA-Lab/src/PolynomialAddition/merge_sorted_list_1.c
 
-CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E "/home/abhinav/DAA-LAB/DAA-Lab/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c" > "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i"
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/abhinav/DAA-LAB/DAA-Lab/src/PolynomialAddition/merge_sorted_list_1.c > CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.i
 
-CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S "/home/abhinav/DAA-LAB/DAA-Lab/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c" -o "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s"
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/abhinav/DAA-LAB/DAA-Lab/src/PolynomialAddition/merge_sorted_list_1.c -o CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.s
 
-CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o.requires:
-.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o.requires
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o.requires:
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o.requires
 
-CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o.provides: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o.requires
-	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o.provides.build"
-.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o.provides
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o.provides: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o.requires
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o.provides.build
+.PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o.provides
 
-CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o.provides.build: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o.provides.build: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o
 
 # Object files for target Polynomial_Addition/polynomialaddition_array1
 Polynomial_Addition/polynomialaddition_array1_OBJECTS = \
-"CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o"
+"CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o"
 
 # External object files for target Polynomial_Addition/polynomialaddition_array1
 Polynomial_Addition/polynomialaddition_array1_EXTERNAL_OBJECTS =
 
-Polynomial_Addition/polynomialaddition_array1: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o
+Polynomial_Addition/polynomialaddition_array1: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o
 Polynomial_Addition/polynomialaddition_array1: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make
 Polynomial_Addition/polynomialaddition_array1: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable Polynomial_Addition/polynomialaddition_array1"
@@ -89,7 +89,7 @@ Polynomial_Addition/polynomialaddition_array1: CMakeFiles/Polynomial_Addition/po
 CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build: Polynomial_Addition/polynomialaddition_array1
 .PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build
 
-CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/requires: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o.requires
+CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/requires: CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o.requires
 .PHONY : CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/requires
 
 CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/clean:

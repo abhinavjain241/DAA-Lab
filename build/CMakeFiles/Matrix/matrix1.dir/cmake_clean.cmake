@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o"
+  "CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o"
   "Matrix/matrix1.pdb"
   "Matrix/matrix1"
 )

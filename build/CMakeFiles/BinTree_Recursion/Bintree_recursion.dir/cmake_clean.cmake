@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o"
+  "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o"
   "BinTree_Recursion/Bintree_recursion.pdb"
   "BinTree_Recursion/Bintree_recursion"
 )

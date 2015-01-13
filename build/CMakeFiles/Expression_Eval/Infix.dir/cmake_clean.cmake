@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o"
+  "CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o"
   "Expression_Eval/Infix.pdb"
   "Expression_Eval/Infix"
 )

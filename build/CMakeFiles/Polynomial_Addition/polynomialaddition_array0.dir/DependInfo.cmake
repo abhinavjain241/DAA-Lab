@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/abhinav/DAA-LAB/DAA-Lab/src/PolynomialAddition(13MA20004)/merge_sorted_array0.c" "/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.o"
+  "/home/abhinav/DAA-LAB/DAA-Lab/src/PolynomialAddition/merge_sorted_array0.c" "/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition/merge_sorted_array0.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

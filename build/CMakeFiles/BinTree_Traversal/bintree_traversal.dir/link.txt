@@ -1,1 +1,0 @@
-/usr/bin/cc      "CMakeFiles/BinTree_Traversal/bintree_traversal.dir/src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.o"  -o BinTree_Traversal/bintree_traversal -rdynamic 

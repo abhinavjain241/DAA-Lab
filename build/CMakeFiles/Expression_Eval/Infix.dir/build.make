@@ -49,37 +49,37 @@ include CMakeFiles/Expression_Eval/Infix.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Expression_Eval/Infix.dir/flags.make
 
-CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o: CMakeFiles/Expression_Eval/Infix.dir/flags.make
-CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o: ../src/ExpressionEvaluation(13MA20004)/infix.c
+CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o: CMakeFiles/Expression_Eval/Infix.dir/flags.make
+CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o: ../src/ExpressionEvaluation/infix.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o "CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o"   -c "/home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation(13MA20004)/infix.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o   -c /home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation/infix.c
 
-CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E "/home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation(13MA20004)/infix.c" > "CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.i"
+CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation/infix.c > CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.i
 
-CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S "/home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation(13MA20004)/infix.c" -o "CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.s"
+CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation/infix.c -o CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.s
 
-CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o.requires:
-.PHONY : CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o.requires
+CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o.requires:
+.PHONY : CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o.requires
 
-CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o.provides: CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o.requires
-	$(MAKE) -f CMakeFiles/Expression_Eval/Infix.dir/build.make "CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o.provides.build"
-.PHONY : CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o.provides
+CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o.provides: CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o.requires
+	$(MAKE) -f CMakeFiles/Expression_Eval/Infix.dir/build.make CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o.provides.build
+.PHONY : CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o.provides
 
-CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o.provides.build: CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o
+CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o.provides.build: CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o
 
 # Object files for target Expression_Eval/Infix
 Expression_Eval/Infix_OBJECTS = \
-"CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o"
+"CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o"
 
 # External object files for target Expression_Eval/Infix
 Expression_Eval/Infix_EXTERNAL_OBJECTS =
 
-Expression_Eval/Infix: CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o
+Expression_Eval/Infix: CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o
 Expression_Eval/Infix: CMakeFiles/Expression_Eval/Infix.dir/build.make
 Expression_Eval/Infix: CMakeFiles/Expression_Eval/Infix.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable Expression_Eval/Infix"
@@ -89,7 +89,7 @@ Expression_Eval/Infix: CMakeFiles/Expression_Eval/Infix.dir/link.txt
 CMakeFiles/Expression_Eval/Infix.dir/build: Expression_Eval/Infix
 .PHONY : CMakeFiles/Expression_Eval/Infix.dir/build
 
-CMakeFiles/Expression_Eval/Infix.dir/requires: CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o.requires
+CMakeFiles/Expression_Eval/Infix.dir/requires: CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o.requires
 .PHONY : CMakeFiles/Expression_Eval/Infix.dir/requires
 
 CMakeFiles/Expression_Eval/Infix.dir/clean:

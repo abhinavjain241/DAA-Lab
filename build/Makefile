@@ -164,17 +164,43 @@ BinTree_Rotation/bintree_rot4/fast:
 .PHONY : BinTree_Rotation/bintree_rot4/fast
 
 #=============================================================================
-# Target rules for targets named BinTree_Traversal/bintree_traversal
+# Target rules for targets named BinTree_Traversal/bintree_inorder_dft
 
 # Build rule for target.
-BinTree_Traversal/bintree_traversal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BinTree_Traversal/bintree_traversal
-.PHONY : BinTree_Traversal/bintree_traversal
+BinTree_Traversal/bintree_inorder_dft: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BinTree_Traversal/bintree_inorder_dft
+.PHONY : BinTree_Traversal/bintree_inorder_dft
 
 # fast build rule for target.
-BinTree_Traversal/bintree_traversal/fast:
-	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_traversal.dir/build.make CMakeFiles/BinTree_Traversal/bintree_traversal.dir/build
-.PHONY : BinTree_Traversal/bintree_traversal/fast
+BinTree_Traversal/bintree_inorder_dft/fast:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/build
+.PHONY : BinTree_Traversal/bintree_inorder_dft/fast
+
+#=============================================================================
+# Target rules for targets named BinTree_Traversal/bintree_postorder_dft
+
+# Build rule for target.
+BinTree_Traversal/bintree_postorder_dft: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BinTree_Traversal/bintree_postorder_dft
+.PHONY : BinTree_Traversal/bintree_postorder_dft
+
+# fast build rule for target.
+BinTree_Traversal/bintree_postorder_dft/fast:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/build
+.PHONY : BinTree_Traversal/bintree_postorder_dft/fast
+
+#=============================================================================
+# Target rules for targets named BinTree_Traversal/bintree_preorder_dft
+
+# Build rule for target.
+BinTree_Traversal/bintree_preorder_dft: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BinTree_Traversal/bintree_preorder_dft
+.PHONY : BinTree_Traversal/bintree_preorder_dft
+
+# fast build rule for target.
+BinTree_Traversal/bintree_preorder_dft/fast:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/build.make CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/build
+.PHONY : BinTree_Traversal/bintree_preorder_dft/fast
 
 #=============================================================================
 # Target rules for targets named Dynamic_Set/dynamic_set_array_based
@@ -242,6 +268,32 @@ Expression_Eval/Prefix/fast:
 .PHONY : Expression_Eval/Prefix/fast
 
 #=============================================================================
+# Target rules for targets named Expression_Eval_Stack/eval_postfix
+
+# Build rule for target.
+Expression_Eval_Stack/eval_postfix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Expression_Eval_Stack/eval_postfix
+.PHONY : Expression_Eval_Stack/eval_postfix
+
+# fast build rule for target.
+Expression_Eval_Stack/eval_postfix/fast:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/build.make CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/build
+.PHONY : Expression_Eval_Stack/eval_postfix/fast
+
+#=============================================================================
+# Target rules for targets named Expression_Eval_Stack/eval_prefix
+
+# Build rule for target.
+Expression_Eval_Stack/eval_prefix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Expression_Eval_Stack/eval_prefix
+.PHONY : Expression_Eval_Stack/eval_prefix
+
+# fast build rule for target.
+Expression_Eval_Stack/eval_prefix/fast:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/build.make CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/build
+.PHONY : Expression_Eval_Stack/eval_prefix/fast
+
+#=============================================================================
 # Target rules for targets named Matrix/matrix1
 
 # Build rule for target.
@@ -306,389 +358,485 @@ Polynomial_Addition/polynomialaddition_pointer/fast:
 	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build
 .PHONY : Polynomial_Addition/polynomialaddition_pointer/fast
 
-src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.o: src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o
-.PHONY : src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.o
+src/BinaryTree(Recursion)/bintree_recursion.o: src/BinaryTree(Recursion)/bintree_recursion.c.o
+.PHONY : src/BinaryTree(Recursion)/bintree_recursion.o
 
 # target to build an object file
-src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o:
-	$(MAKE) -f CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build.make "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o"
-.PHONY : src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o
+src/BinaryTree(Recursion)/bintree_recursion.c.o:
+	$(MAKE) -f CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build.make "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o"
+.PHONY : src/BinaryTree(Recursion)/bintree_recursion.c.o
 
-src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.i: src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.i
-.PHONY : src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.i
+src/BinaryTree(Recursion)/bintree_recursion.i: src/BinaryTree(Recursion)/bintree_recursion.c.i
+.PHONY : src/BinaryTree(Recursion)/bintree_recursion.i
 
 # target to preprocess a source file
-src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.i:
-	$(MAKE) -f CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build.make "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.i"
-.PHONY : src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.i
+src/BinaryTree(Recursion)/bintree_recursion.c.i:
+	$(MAKE) -f CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build.make "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.i"
+.PHONY : src/BinaryTree(Recursion)/bintree_recursion.c.i
 
-src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.s: src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.s
-.PHONY : src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.s
+src/BinaryTree(Recursion)/bintree_recursion.s: src/BinaryTree(Recursion)/bintree_recursion.c.s
+.PHONY : src/BinaryTree(Recursion)/bintree_recursion.s
 
 # target to generate assembly for a file
-src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.s:
-	$(MAKE) -f CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build.make "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.s"
-.PHONY : src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.s
+src/BinaryTree(Recursion)/bintree_recursion.c.s:
+	$(MAKE) -f CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build.make "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.s"
+.PHONY : src/BinaryTree(Recursion)/bintree_recursion.c.s
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot.o: src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot.o
+src/BinaryTree(Rotation)/bintree_rot.o: src/BinaryTree(Rotation)/bintree_rot.c.o
+.PHONY : src/BinaryTree(Rotation)/bintree_rot.o
 
 # target to build an object file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o
+src/BinaryTree(Rotation)/bintree_rot.c.o:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot.c.o
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot.i: src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.i
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot.i
+src/BinaryTree(Rotation)/bintree_rot.i: src/BinaryTree(Rotation)/bintree_rot.c.i
+.PHONY : src/BinaryTree(Rotation)/bintree_rot.i
 
 # target to preprocess a source file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.i:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.i"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.i
+src/BinaryTree(Rotation)/bintree_rot.c.i:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.i"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot.c.i
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot.s: src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.s
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot.s
+src/BinaryTree(Rotation)/bintree_rot.s: src/BinaryTree(Rotation)/bintree_rot.c.s
+.PHONY : src/BinaryTree(Rotation)/bintree_rot.s
 
 # target to generate assembly for a file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.s:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.s"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.s
+src/BinaryTree(Rotation)/bintree_rot.c.s:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.s"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot.c.s
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.o: src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.o
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.o
+src/BinaryTree(Rotation)/bintree_rot1.o: src/BinaryTree(Rotation)/bintree_rot1.c.o
+.PHONY : src/BinaryTree(Rotation)/bintree_rot1.o
 
 # target to build an object file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.o:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot2.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot2.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.o"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.o
+src/BinaryTree(Rotation)/bintree_rot1.c.o:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot2.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot2.dir/src/BinaryTree(Rotation)/bintree_rot1.c.o"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot1.c.o
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.i: src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.i
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.i
+src/BinaryTree(Rotation)/bintree_rot1.i: src/BinaryTree(Rotation)/bintree_rot1.c.i
+.PHONY : src/BinaryTree(Rotation)/bintree_rot1.i
 
 # target to preprocess a source file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.i:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot2.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot2.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.i"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.i
+src/BinaryTree(Rotation)/bintree_rot1.c.i:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot2.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot2.dir/src/BinaryTree(Rotation)/bintree_rot1.c.i"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot1.c.i
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.s: src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.s
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.s
+src/BinaryTree(Rotation)/bintree_rot1.s: src/BinaryTree(Rotation)/bintree_rot1.c.s
+.PHONY : src/BinaryTree(Rotation)/bintree_rot1.s
 
 # target to generate assembly for a file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.s:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot2.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot2.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.s"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.s
+src/BinaryTree(Rotation)/bintree_rot1.c.s:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot2.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot2.dir/src/BinaryTree(Rotation)/bintree_rot1.c.s"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot1.c.s
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.o: src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.o
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.o
+src/BinaryTree(Rotation)/bintree_rot2.o: src/BinaryTree(Rotation)/bintree_rot2.c.o
+.PHONY : src/BinaryTree(Rotation)/bintree_rot2.o
 
 # target to build an object file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.o:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot3.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot3.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.o"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.o
+src/BinaryTree(Rotation)/bintree_rot2.c.o:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot3.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot3.dir/src/BinaryTree(Rotation)/bintree_rot2.c.o"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot2.c.o
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.i: src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.i
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.i
+src/BinaryTree(Rotation)/bintree_rot2.i: src/BinaryTree(Rotation)/bintree_rot2.c.i
+.PHONY : src/BinaryTree(Rotation)/bintree_rot2.i
 
 # target to preprocess a source file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.i:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot3.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot3.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.i"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.i
+src/BinaryTree(Rotation)/bintree_rot2.c.i:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot3.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot3.dir/src/BinaryTree(Rotation)/bintree_rot2.c.i"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot2.c.i
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.s: src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.s
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.s
+src/BinaryTree(Rotation)/bintree_rot2.s: src/BinaryTree(Rotation)/bintree_rot2.c.s
+.PHONY : src/BinaryTree(Rotation)/bintree_rot2.s
 
 # target to generate assembly for a file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.s:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot3.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot3.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.s"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.c.s
+src/BinaryTree(Rotation)/bintree_rot2.c.s:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot3.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot3.dir/src/BinaryTree(Rotation)/bintree_rot2.c.s"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot2.c.s
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.o: src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.o
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.o
+src/BinaryTree(Rotation)/bintree_rot3.o: src/BinaryTree(Rotation)/bintree_rot3.c.o
+.PHONY : src/BinaryTree(Rotation)/bintree_rot3.o
 
 # target to build an object file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.o:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot4.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot4.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.o"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.o
+src/BinaryTree(Rotation)/bintree_rot3.c.o:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot4.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot4.dir/src/BinaryTree(Rotation)/bintree_rot3.c.o"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot3.c.o
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.i: src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.i
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.i
+src/BinaryTree(Rotation)/bintree_rot3.i: src/BinaryTree(Rotation)/bintree_rot3.c.i
+.PHONY : src/BinaryTree(Rotation)/bintree_rot3.i
 
 # target to preprocess a source file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.i:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot4.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot4.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.i"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.i
+src/BinaryTree(Rotation)/bintree_rot3.c.i:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot4.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot4.dir/src/BinaryTree(Rotation)/bintree_rot3.c.i"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot3.c.i
 
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.s: src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.s
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.s
+src/BinaryTree(Rotation)/bintree_rot3.s: src/BinaryTree(Rotation)/bintree_rot3.c.s
+.PHONY : src/BinaryTree(Rotation)/bintree_rot3.s
 
 # target to generate assembly for a file
-src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.s:
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot4.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot4.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.s"
-.PHONY : src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.c.s
+src/BinaryTree(Rotation)/bintree_rot3.c.s:
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot4.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot4.dir/src/BinaryTree(Rotation)/bintree_rot3.c.s"
+.PHONY : src/BinaryTree(Rotation)/bintree_rot3.c.s
 
-src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.o: src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.o
-.PHONY : src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.o
+src/BinaryTree(Traversal)/bintree_inorder_dft.o: src/BinaryTree(Traversal)/bintree_inorder_dft.c.o
+.PHONY : src/BinaryTree(Traversal)/bintree_inorder_dft.o
 
 # target to build an object file
-src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.o:
-	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_traversal.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_traversal.dir/src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.o"
-.PHONY : src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.o
+src/BinaryTree(Traversal)/bintree_inorder_dft.c.o:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/src/BinaryTree(Traversal)/bintree_inorder_dft.c.o"
+.PHONY : src/BinaryTree(Traversal)/bintree_inorder_dft.c.o
 
-src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.i: src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.i
-.PHONY : src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.i
+src/BinaryTree(Traversal)/bintree_inorder_dft.i: src/BinaryTree(Traversal)/bintree_inorder_dft.c.i
+.PHONY : src/BinaryTree(Traversal)/bintree_inorder_dft.i
 
 # target to preprocess a source file
-src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.i:
-	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_traversal.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_traversal.dir/src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.i"
-.PHONY : src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.i
+src/BinaryTree(Traversal)/bintree_inorder_dft.c.i:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/src/BinaryTree(Traversal)/bintree_inorder_dft.c.i"
+.PHONY : src/BinaryTree(Traversal)/bintree_inorder_dft.c.i
 
-src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.s: src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.s
-.PHONY : src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.s
+src/BinaryTree(Traversal)/bintree_inorder_dft.s: src/BinaryTree(Traversal)/bintree_inorder_dft.c.s
+.PHONY : src/BinaryTree(Traversal)/bintree_inorder_dft.s
 
 # target to generate assembly for a file
-src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.s:
-	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_traversal.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_traversal.dir/src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.s"
-.PHONY : src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.c.s
+src/BinaryTree(Traversal)/bintree_inorder_dft.c.s:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/src/BinaryTree(Traversal)/bintree_inorder_dft.c.s"
+.PHONY : src/BinaryTree(Traversal)/bintree_inorder_dft.c.s
 
-src/DynamicSet(13MA20004)/dynamic_set_array_based.o: src/DynamicSet(13MA20004)/dynamic_set_array_based.c.o
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_array_based.o
+src/BinaryTree(Traversal)/bintree_postorder_dft.o: src/BinaryTree(Traversal)/bintree_postorder_dft.c.o
+.PHONY : src/BinaryTree(Traversal)/bintree_postorder_dft.o
 
 # target to build an object file
-src/DynamicSet(13MA20004)/dynamic_set_array_based.c.o:
-	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/build.make "CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/src/DynamicSet(13MA20004)/dynamic_set_array_based.c.o"
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_array_based.c.o
+src/BinaryTree(Traversal)/bintree_postorder_dft.c.o:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/src/BinaryTree(Traversal)/bintree_postorder_dft.c.o"
+.PHONY : src/BinaryTree(Traversal)/bintree_postorder_dft.c.o
 
-src/DynamicSet(13MA20004)/dynamic_set_array_based.i: src/DynamicSet(13MA20004)/dynamic_set_array_based.c.i
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_array_based.i
+src/BinaryTree(Traversal)/bintree_postorder_dft.i: src/BinaryTree(Traversal)/bintree_postorder_dft.c.i
+.PHONY : src/BinaryTree(Traversal)/bintree_postorder_dft.i
 
 # target to preprocess a source file
-src/DynamicSet(13MA20004)/dynamic_set_array_based.c.i:
-	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/build.make "CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/src/DynamicSet(13MA20004)/dynamic_set_array_based.c.i"
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_array_based.c.i
+src/BinaryTree(Traversal)/bintree_postorder_dft.c.i:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/src/BinaryTree(Traversal)/bintree_postorder_dft.c.i"
+.PHONY : src/BinaryTree(Traversal)/bintree_postorder_dft.c.i
 
-src/DynamicSet(13MA20004)/dynamic_set_array_based.s: src/DynamicSet(13MA20004)/dynamic_set_array_based.c.s
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_array_based.s
+src/BinaryTree(Traversal)/bintree_postorder_dft.s: src/BinaryTree(Traversal)/bintree_postorder_dft.c.s
+.PHONY : src/BinaryTree(Traversal)/bintree_postorder_dft.s
 
 # target to generate assembly for a file
-src/DynamicSet(13MA20004)/dynamic_set_array_based.c.s:
-	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/build.make "CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/src/DynamicSet(13MA20004)/dynamic_set_array_based.c.s"
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_array_based.c.s
+src/BinaryTree(Traversal)/bintree_postorder_dft.c.s:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_postorder_dft.dir/src/BinaryTree(Traversal)/bintree_postorder_dft.c.s"
+.PHONY : src/BinaryTree(Traversal)/bintree_postorder_dft.c.s
 
-src/DynamicSet(13MA20004)/dynamic_set_pointer_based.o: src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.o
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_pointer_based.o
+src/BinaryTree(Traversal)/bintree_preorder_dft.o: src/BinaryTree(Traversal)/bintree_preorder_dft.c.o
+.PHONY : src/BinaryTree(Traversal)/bintree_preorder_dft.o
 
 # target to build an object file
-src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.o:
-	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/build.make "CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.o"
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.o
+src/BinaryTree(Traversal)/bintree_preorder_dft.c.o:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/src/BinaryTree(Traversal)/bintree_preorder_dft.c.o"
+.PHONY : src/BinaryTree(Traversal)/bintree_preorder_dft.c.o
 
-src/DynamicSet(13MA20004)/dynamic_set_pointer_based.i: src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.i
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_pointer_based.i
+src/BinaryTree(Traversal)/bintree_preorder_dft.i: src/BinaryTree(Traversal)/bintree_preorder_dft.c.i
+.PHONY : src/BinaryTree(Traversal)/bintree_preorder_dft.i
 
 # target to preprocess a source file
-src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.i:
-	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/build.make "CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.i"
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.i
+src/BinaryTree(Traversal)/bintree_preorder_dft.c.i:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/src/BinaryTree(Traversal)/bintree_preorder_dft.c.i"
+.PHONY : src/BinaryTree(Traversal)/bintree_preorder_dft.c.i
 
-src/DynamicSet(13MA20004)/dynamic_set_pointer_based.s: src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.s
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_pointer_based.s
+src/BinaryTree(Traversal)/bintree_preorder_dft.s: src/BinaryTree(Traversal)/bintree_preorder_dft.c.s
+.PHONY : src/BinaryTree(Traversal)/bintree_preorder_dft.s
 
 # target to generate assembly for a file
-src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.s:
-	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/build.make "CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.s"
-.PHONY : src/DynamicSet(13MA20004)/dynamic_set_pointer_based.c.s
+src/BinaryTree(Traversal)/bintree_preorder_dft.c.s:
+	$(MAKE) -f CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/build.make "CMakeFiles/BinTree_Traversal/bintree_preorder_dft.dir/src/BinaryTree(Traversal)/bintree_preorder_dft.c.s"
+.PHONY : src/BinaryTree(Traversal)/bintree_preorder_dft.c.s
 
-src/ExpressionEvaluation(13MA20004)/infix.o: src/ExpressionEvaluation(13MA20004)/infix.c.o
-.PHONY : src/ExpressionEvaluation(13MA20004)/infix.o
+src/DynamicSet/dynamic_set_array_based.o: src/DynamicSet/dynamic_set_array_based.c.o
+.PHONY : src/DynamicSet/dynamic_set_array_based.o
 
 # target to build an object file
-src/ExpressionEvaluation(13MA20004)/infix.c.o:
-	$(MAKE) -f CMakeFiles/Expression_Eval/Infix.dir/build.make "CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.o"
-.PHONY : src/ExpressionEvaluation(13MA20004)/infix.c.o
+src/DynamicSet/dynamic_set_array_based.c.o:
+	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/build.make CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/src/DynamicSet/dynamic_set_array_based.c.o
+.PHONY : src/DynamicSet/dynamic_set_array_based.c.o
 
-src/ExpressionEvaluation(13MA20004)/infix.i: src/ExpressionEvaluation(13MA20004)/infix.c.i
-.PHONY : src/ExpressionEvaluation(13MA20004)/infix.i
+src/DynamicSet/dynamic_set_array_based.i: src/DynamicSet/dynamic_set_array_based.c.i
+.PHONY : src/DynamicSet/dynamic_set_array_based.i
 
 # target to preprocess a source file
-src/ExpressionEvaluation(13MA20004)/infix.c.i:
-	$(MAKE) -f CMakeFiles/Expression_Eval/Infix.dir/build.make "CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.i"
-.PHONY : src/ExpressionEvaluation(13MA20004)/infix.c.i
+src/DynamicSet/dynamic_set_array_based.c.i:
+	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/build.make CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/src/DynamicSet/dynamic_set_array_based.c.i
+.PHONY : src/DynamicSet/dynamic_set_array_based.c.i
 
-src/ExpressionEvaluation(13MA20004)/infix.s: src/ExpressionEvaluation(13MA20004)/infix.c.s
-.PHONY : src/ExpressionEvaluation(13MA20004)/infix.s
+src/DynamicSet/dynamic_set_array_based.s: src/DynamicSet/dynamic_set_array_based.c.s
+.PHONY : src/DynamicSet/dynamic_set_array_based.s
 
 # target to generate assembly for a file
-src/ExpressionEvaluation(13MA20004)/infix.c.s:
-	$(MAKE) -f CMakeFiles/Expression_Eval/Infix.dir/build.make "CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation(13MA20004)/infix.c.s"
-.PHONY : src/ExpressionEvaluation(13MA20004)/infix.c.s
+src/DynamicSet/dynamic_set_array_based.c.s:
+	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/build.make CMakeFiles/Dynamic_Set/dynamic_set_array_based.dir/src/DynamicSet/dynamic_set_array_based.c.s
+.PHONY : src/DynamicSet/dynamic_set_array_based.c.s
 
-src/ExpressionEvaluation(13MA20004)/postfix.o: src/ExpressionEvaluation(13MA20004)/postfix.c.o
-.PHONY : src/ExpressionEvaluation(13MA20004)/postfix.o
+src/DynamicSet/dynamic_set_pointer_based.o: src/DynamicSet/dynamic_set_pointer_based.c.o
+.PHONY : src/DynamicSet/dynamic_set_pointer_based.o
 
 # target to build an object file
-src/ExpressionEvaluation(13MA20004)/postfix.c.o:
-	$(MAKE) -f CMakeFiles/Expression_Eval/Postfix.dir/build.make "CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o"
-.PHONY : src/ExpressionEvaluation(13MA20004)/postfix.c.o
+src/DynamicSet/dynamic_set_pointer_based.c.o:
+	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/build.make CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/src/DynamicSet/dynamic_set_pointer_based.c.o
+.PHONY : src/DynamicSet/dynamic_set_pointer_based.c.o
 
-src/ExpressionEvaluation(13MA20004)/postfix.i: src/ExpressionEvaluation(13MA20004)/postfix.c.i
-.PHONY : src/ExpressionEvaluation(13MA20004)/postfix.i
+src/DynamicSet/dynamic_set_pointer_based.i: src/DynamicSet/dynamic_set_pointer_based.c.i
+.PHONY : src/DynamicSet/dynamic_set_pointer_based.i
 
 # target to preprocess a source file
-src/ExpressionEvaluation(13MA20004)/postfix.c.i:
-	$(MAKE) -f CMakeFiles/Expression_Eval/Postfix.dir/build.make "CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.i"
-.PHONY : src/ExpressionEvaluation(13MA20004)/postfix.c.i
+src/DynamicSet/dynamic_set_pointer_based.c.i:
+	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/build.make CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/src/DynamicSet/dynamic_set_pointer_based.c.i
+.PHONY : src/DynamicSet/dynamic_set_pointer_based.c.i
 
-src/ExpressionEvaluation(13MA20004)/postfix.s: src/ExpressionEvaluation(13MA20004)/postfix.c.s
-.PHONY : src/ExpressionEvaluation(13MA20004)/postfix.s
+src/DynamicSet/dynamic_set_pointer_based.s: src/DynamicSet/dynamic_set_pointer_based.c.s
+.PHONY : src/DynamicSet/dynamic_set_pointer_based.s
 
 # target to generate assembly for a file
-src/ExpressionEvaluation(13MA20004)/postfix.c.s:
-	$(MAKE) -f CMakeFiles/Expression_Eval/Postfix.dir/build.make "CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.s"
-.PHONY : src/ExpressionEvaluation(13MA20004)/postfix.c.s
+src/DynamicSet/dynamic_set_pointer_based.c.s:
+	$(MAKE) -f CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/build.make CMakeFiles/Dynamic_Set/dynamic_set_pointer_based.dir/src/DynamicSet/dynamic_set_pointer_based.c.s
+.PHONY : src/DynamicSet/dynamic_set_pointer_based.c.s
 
-src/ExpressionEvaluation(13MA20004)/prefix.o: src/ExpressionEvaluation(13MA20004)/prefix.c.o
-.PHONY : src/ExpressionEvaluation(13MA20004)/prefix.o
+src/ExpressionEvaluation(Using_Stack)/eval_postfix.o: src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.o
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_postfix.o
 
 # target to build an object file
-src/ExpressionEvaluation(13MA20004)/prefix.c.o:
-	$(MAKE) -f CMakeFiles/Expression_Eval/Prefix.dir/build.make "CMakeFiles/Expression_Eval/Prefix.dir/src/ExpressionEvaluation(13MA20004)/prefix.c.o"
-.PHONY : src/ExpressionEvaluation(13MA20004)/prefix.c.o
+src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.o:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/build.make "CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.o"
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.o
 
-src/ExpressionEvaluation(13MA20004)/prefix.i: src/ExpressionEvaluation(13MA20004)/prefix.c.i
-.PHONY : src/ExpressionEvaluation(13MA20004)/prefix.i
+src/ExpressionEvaluation(Using_Stack)/eval_postfix.i: src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.i
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_postfix.i
 
 # target to preprocess a source file
-src/ExpressionEvaluation(13MA20004)/prefix.c.i:
-	$(MAKE) -f CMakeFiles/Expression_Eval/Prefix.dir/build.make "CMakeFiles/Expression_Eval/Prefix.dir/src/ExpressionEvaluation(13MA20004)/prefix.c.i"
-.PHONY : src/ExpressionEvaluation(13MA20004)/prefix.c.i
+src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.i:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/build.make "CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.i"
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.i
 
-src/ExpressionEvaluation(13MA20004)/prefix.s: src/ExpressionEvaluation(13MA20004)/prefix.c.s
-.PHONY : src/ExpressionEvaluation(13MA20004)/prefix.s
+src/ExpressionEvaluation(Using_Stack)/eval_postfix.s: src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.s
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_postfix.s
 
 # target to generate assembly for a file
-src/ExpressionEvaluation(13MA20004)/prefix.c.s:
-	$(MAKE) -f CMakeFiles/Expression_Eval/Prefix.dir/build.make "CMakeFiles/Expression_Eval/Prefix.dir/src/ExpressionEvaluation(13MA20004)/prefix.c.s"
-.PHONY : src/ExpressionEvaluation(13MA20004)/prefix.c.s
+src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.s:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/build.make "CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.s"
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.s
 
-src/Matrix(13MA20004)/Matrix0.o: src/Matrix(13MA20004)/Matrix0.c.o
-.PHONY : src/Matrix(13MA20004)/Matrix0.o
+src/ExpressionEvaluation(Using_Stack)/eval_prefix.o: src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.o
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_prefix.o
 
 # target to build an object file
-src/Matrix(13MA20004)/Matrix0.c.o:
-	$(MAKE) -f CMakeFiles/Matrix/matrix1.dir/build.make "CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o"
-.PHONY : src/Matrix(13MA20004)/Matrix0.c.o
+src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.o:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/build.make "CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.o"
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.o
 
-src/Matrix(13MA20004)/Matrix0.i: src/Matrix(13MA20004)/Matrix0.c.i
-.PHONY : src/Matrix(13MA20004)/Matrix0.i
+src/ExpressionEvaluation(Using_Stack)/eval_prefix.i: src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.i
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_prefix.i
 
 # target to preprocess a source file
-src/Matrix(13MA20004)/Matrix0.c.i:
-	$(MAKE) -f CMakeFiles/Matrix/matrix1.dir/build.make "CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.i"
-.PHONY : src/Matrix(13MA20004)/Matrix0.c.i
+src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.i:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/build.make "CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.i"
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.i
 
-src/Matrix(13MA20004)/Matrix0.s: src/Matrix(13MA20004)/Matrix0.c.s
-.PHONY : src/Matrix(13MA20004)/Matrix0.s
+src/ExpressionEvaluation(Using_Stack)/eval_prefix.s: src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.s
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_prefix.s
 
 # target to generate assembly for a file
-src/Matrix(13MA20004)/Matrix0.c.s:
-	$(MAKE) -f CMakeFiles/Matrix/matrix1.dir/build.make "CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.s"
-.PHONY : src/Matrix(13MA20004)/Matrix0.c.s
+src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.s:
+	$(MAKE) -f CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/build.make "CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.s"
+.PHONY : src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.s
 
-src/Matrix(13MA20004)/Matrix1.o: src/Matrix(13MA20004)/Matrix1.c.o
-.PHONY : src/Matrix(13MA20004)/Matrix1.o
+src/ExpressionEvaluation/infix.o: src/ExpressionEvaluation/infix.c.o
+.PHONY : src/ExpressionEvaluation/infix.o
 
 # target to build an object file
-src/Matrix(13MA20004)/Matrix1.c.o:
-	$(MAKE) -f CMakeFiles/Matrix/matrix2.dir/build.make "CMakeFiles/Matrix/matrix2.dir/src/Matrix(13MA20004)/Matrix1.c.o"
-.PHONY : src/Matrix(13MA20004)/Matrix1.c.o
+src/ExpressionEvaluation/infix.c.o:
+	$(MAKE) -f CMakeFiles/Expression_Eval/Infix.dir/build.make CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o
+.PHONY : src/ExpressionEvaluation/infix.c.o
 
-src/Matrix(13MA20004)/Matrix1.i: src/Matrix(13MA20004)/Matrix1.c.i
-.PHONY : src/Matrix(13MA20004)/Matrix1.i
+src/ExpressionEvaluation/infix.i: src/ExpressionEvaluation/infix.c.i
+.PHONY : src/ExpressionEvaluation/infix.i
 
 # target to preprocess a source file
-src/Matrix(13MA20004)/Matrix1.c.i:
-	$(MAKE) -f CMakeFiles/Matrix/matrix2.dir/build.make "CMakeFiles/Matrix/matrix2.dir/src/Matrix(13MA20004)/Matrix1.c.i"
-.PHONY : src/Matrix(13MA20004)/Matrix1.c.i
+src/ExpressionEvaluation/infix.c.i:
+	$(MAKE) -f CMakeFiles/Expression_Eval/Infix.dir/build.make CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.i
+.PHONY : src/ExpressionEvaluation/infix.c.i
 
-src/Matrix(13MA20004)/Matrix1.s: src/Matrix(13MA20004)/Matrix1.c.s
-.PHONY : src/Matrix(13MA20004)/Matrix1.s
+src/ExpressionEvaluation/infix.s: src/ExpressionEvaluation/infix.c.s
+.PHONY : src/ExpressionEvaluation/infix.s
 
 # target to generate assembly for a file
-src/Matrix(13MA20004)/Matrix1.c.s:
-	$(MAKE) -f CMakeFiles/Matrix/matrix2.dir/build.make "CMakeFiles/Matrix/matrix2.dir/src/Matrix(13MA20004)/Matrix1.c.s"
-.PHONY : src/Matrix(13MA20004)/Matrix1.c.s
+src/ExpressionEvaluation/infix.c.s:
+	$(MAKE) -f CMakeFiles/Expression_Eval/Infix.dir/build.make CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.s
+.PHONY : src/ExpressionEvaluation/infix.c.s
 
-src/PolynomialAddition(13MA20004)/merge_sorted_array0.o: src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.o
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.o
+src/ExpressionEvaluation/postfix.o: src/ExpressionEvaluation/postfix.c.o
+.PHONY : src/ExpressionEvaluation/postfix.o
 
 # target to build an object file
-src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.o:
-	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.o"
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.o
+src/ExpressionEvaluation/postfix.c.o:
+	$(MAKE) -f CMakeFiles/Expression_Eval/Postfix.dir/build.make CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o
+.PHONY : src/ExpressionEvaluation/postfix.c.o
 
-src/PolynomialAddition(13MA20004)/merge_sorted_array0.i: src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.i
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.i
+src/ExpressionEvaluation/postfix.i: src/ExpressionEvaluation/postfix.c.i
+.PHONY : src/ExpressionEvaluation/postfix.i
 
 # target to preprocess a source file
-src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.i:
-	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.i"
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.i
+src/ExpressionEvaluation/postfix.c.i:
+	$(MAKE) -f CMakeFiles/Expression_Eval/Postfix.dir/build.make CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.i
+.PHONY : src/ExpressionEvaluation/postfix.c.i
 
-src/PolynomialAddition(13MA20004)/merge_sorted_array0.s: src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.s
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.s
+src/ExpressionEvaluation/postfix.s: src/ExpressionEvaluation/postfix.c.s
+.PHONY : src/ExpressionEvaluation/postfix.s
 
 # target to generate assembly for a file
-src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.s:
-	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.s"
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_array0.c.s
+src/ExpressionEvaluation/postfix.c.s:
+	$(MAKE) -f CMakeFiles/Expression_Eval/Postfix.dir/build.make CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.s
+.PHONY : src/ExpressionEvaluation/postfix.c.s
 
-src/PolynomialAddition(13MA20004)/merge_sorted_list_0.o: src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.o
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.o
+src/ExpressionEvaluation/prefix.o: src/ExpressionEvaluation/prefix.c.o
+.PHONY : src/ExpressionEvaluation/prefix.o
 
 # target to build an object file
-src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.o:
-	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.o"
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.o
+src/ExpressionEvaluation/prefix.c.o:
+	$(MAKE) -f CMakeFiles/Expression_Eval/Prefix.dir/build.make CMakeFiles/Expression_Eval/Prefix.dir/src/ExpressionEvaluation/prefix.c.o
+.PHONY : src/ExpressionEvaluation/prefix.c.o
 
-src/PolynomialAddition(13MA20004)/merge_sorted_list_0.i: src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.i
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.i
+src/ExpressionEvaluation/prefix.i: src/ExpressionEvaluation/prefix.c.i
+.PHONY : src/ExpressionEvaluation/prefix.i
 
 # target to preprocess a source file
-src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.i:
-	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.i"
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.i
+src/ExpressionEvaluation/prefix.c.i:
+	$(MAKE) -f CMakeFiles/Expression_Eval/Prefix.dir/build.make CMakeFiles/Expression_Eval/Prefix.dir/src/ExpressionEvaluation/prefix.c.i
+.PHONY : src/ExpressionEvaluation/prefix.c.i
 
-src/PolynomialAddition(13MA20004)/merge_sorted_list_0.s: src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.s
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.s
+src/ExpressionEvaluation/prefix.s: src/ExpressionEvaluation/prefix.c.s
+.PHONY : src/ExpressionEvaluation/prefix.s
 
 # target to generate assembly for a file
-src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.s:
-	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.s"
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_0.c.s
+src/ExpressionEvaluation/prefix.c.s:
+	$(MAKE) -f CMakeFiles/Expression_Eval/Prefix.dir/build.make CMakeFiles/Expression_Eval/Prefix.dir/src/ExpressionEvaluation/prefix.c.s
+.PHONY : src/ExpressionEvaluation/prefix.c.s
 
-src/PolynomialAddition(13MA20004)/merge_sorted_list_1.o: src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.o
+src/Matrix/Matrix0.o: src/Matrix/Matrix0.c.o
+.PHONY : src/Matrix/Matrix0.o
 
 # target to build an object file
-src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o:
-	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o"
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o
+src/Matrix/Matrix0.c.o:
+	$(MAKE) -f CMakeFiles/Matrix/matrix1.dir/build.make CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o
+.PHONY : src/Matrix/Matrix0.c.o
 
-src/PolynomialAddition(13MA20004)/merge_sorted_list_1.i: src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.i
+src/Matrix/Matrix0.i: src/Matrix/Matrix0.c.i
+.PHONY : src/Matrix/Matrix0.i
 
 # target to preprocess a source file
-src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i:
-	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i"
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.i
+src/Matrix/Matrix0.c.i:
+	$(MAKE) -f CMakeFiles/Matrix/matrix1.dir/build.make CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.i
+.PHONY : src/Matrix/Matrix0.c.i
 
-src/PolynomialAddition(13MA20004)/merge_sorted_list_1.s: src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.s
+src/Matrix/Matrix0.s: src/Matrix/Matrix0.c.s
+.PHONY : src/Matrix/Matrix0.s
 
 # target to generate assembly for a file
-src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s:
-	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s"
-.PHONY : src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.s
+src/Matrix/Matrix0.c.s:
+	$(MAKE) -f CMakeFiles/Matrix/matrix1.dir/build.make CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.s
+.PHONY : src/Matrix/Matrix0.c.s
+
+src/Matrix/Matrix1.o: src/Matrix/Matrix1.c.o
+.PHONY : src/Matrix/Matrix1.o
+
+# target to build an object file
+src/Matrix/Matrix1.c.o:
+	$(MAKE) -f CMakeFiles/Matrix/matrix2.dir/build.make CMakeFiles/Matrix/matrix2.dir/src/Matrix/Matrix1.c.o
+.PHONY : src/Matrix/Matrix1.c.o
+
+src/Matrix/Matrix1.i: src/Matrix/Matrix1.c.i
+.PHONY : src/Matrix/Matrix1.i
+
+# target to preprocess a source file
+src/Matrix/Matrix1.c.i:
+	$(MAKE) -f CMakeFiles/Matrix/matrix2.dir/build.make CMakeFiles/Matrix/matrix2.dir/src/Matrix/Matrix1.c.i
+.PHONY : src/Matrix/Matrix1.c.i
+
+src/Matrix/Matrix1.s: src/Matrix/Matrix1.c.s
+.PHONY : src/Matrix/Matrix1.s
+
+# target to generate assembly for a file
+src/Matrix/Matrix1.c.s:
+	$(MAKE) -f CMakeFiles/Matrix/matrix2.dir/build.make CMakeFiles/Matrix/matrix2.dir/src/Matrix/Matrix1.c.s
+.PHONY : src/Matrix/Matrix1.c.s
+
+src/PolynomialAddition/merge_sorted_array0.o: src/PolynomialAddition/merge_sorted_array0.c.o
+.PHONY : src/PolynomialAddition/merge_sorted_array0.o
+
+# target to build an object file
+src/PolynomialAddition/merge_sorted_array0.c.o:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition/merge_sorted_array0.c.o
+.PHONY : src/PolynomialAddition/merge_sorted_array0.c.o
+
+src/PolynomialAddition/merge_sorted_array0.i: src/PolynomialAddition/merge_sorted_array0.c.i
+.PHONY : src/PolynomialAddition/merge_sorted_array0.i
+
+# target to preprocess a source file
+src/PolynomialAddition/merge_sorted_array0.c.i:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition/merge_sorted_array0.c.i
+.PHONY : src/PolynomialAddition/merge_sorted_array0.c.i
+
+src/PolynomialAddition/merge_sorted_array0.s: src/PolynomialAddition/merge_sorted_array0.c.s
+.PHONY : src/PolynomialAddition/merge_sorted_array0.s
+
+# target to generate assembly for a file
+src/PolynomialAddition/merge_sorted_array0.c.s:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition/merge_sorted_array0.c.s
+.PHONY : src/PolynomialAddition/merge_sorted_array0.c.s
+
+src/PolynomialAddition/merge_sorted_list_0.o: src/PolynomialAddition/merge_sorted_list_0.c.o
+.PHONY : src/PolynomialAddition/merge_sorted_list_0.o
+
+# target to build an object file
+src/PolynomialAddition/merge_sorted_list_0.c.o:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/src/PolynomialAddition/merge_sorted_list_0.c.o
+.PHONY : src/PolynomialAddition/merge_sorted_list_0.c.o
+
+src/PolynomialAddition/merge_sorted_list_0.i: src/PolynomialAddition/merge_sorted_list_0.c.i
+.PHONY : src/PolynomialAddition/merge_sorted_list_0.i
+
+# target to preprocess a source file
+src/PolynomialAddition/merge_sorted_list_0.c.i:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/src/PolynomialAddition/merge_sorted_list_0.c.i
+.PHONY : src/PolynomialAddition/merge_sorted_list_0.c.i
+
+src/PolynomialAddition/merge_sorted_list_0.s: src/PolynomialAddition/merge_sorted_list_0.c.s
+.PHONY : src/PolynomialAddition/merge_sorted_list_0.s
+
+# target to generate assembly for a file
+src/PolynomialAddition/merge_sorted_list_0.c.s:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_pointer.dir/src/PolynomialAddition/merge_sorted_list_0.c.s
+.PHONY : src/PolynomialAddition/merge_sorted_list_0.c.s
+
+src/PolynomialAddition/merge_sorted_list_1.o: src/PolynomialAddition/merge_sorted_list_1.c.o
+.PHONY : src/PolynomialAddition/merge_sorted_list_1.o
+
+# target to build an object file
+src/PolynomialAddition/merge_sorted_list_1.c.o:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o
+.PHONY : src/PolynomialAddition/merge_sorted_list_1.c.o
+
+src/PolynomialAddition/merge_sorted_list_1.i: src/PolynomialAddition/merge_sorted_list_1.c.i
+.PHONY : src/PolynomialAddition/merge_sorted_list_1.i
+
+# target to preprocess a source file
+src/PolynomialAddition/merge_sorted_list_1.c.i:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.i
+.PHONY : src/PolynomialAddition/merge_sorted_list_1.c.i
+
+src/PolynomialAddition/merge_sorted_list_1.s: src/PolynomialAddition/merge_sorted_list_1.c.s
+.PHONY : src/PolynomialAddition/merge_sorted_list_1.s
+
+# target to generate assembly for a file
+src/PolynomialAddition/merge_sorted_list_1.c.s:
+	$(MAKE) -f CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/build.make CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.s
+.PHONY : src/PolynomialAddition/merge_sorted_list_1.c.s
 
 # Help Target
 help:
@@ -701,12 +849,16 @@ help:
 	@echo "... BinTree_Rotation/bintree_rot2"
 	@echo "... BinTree_Rotation/bintree_rot3"
 	@echo "... BinTree_Rotation/bintree_rot4"
-	@echo "... BinTree_Traversal/bintree_traversal"
+	@echo "... BinTree_Traversal/bintree_inorder_dft"
+	@echo "... BinTree_Traversal/bintree_postorder_dft"
+	@echo "... BinTree_Traversal/bintree_preorder_dft"
 	@echo "... Dynamic_Set/dynamic_set_array_based"
 	@echo "... Dynamic_Set/dynamic_set_pointer_based"
 	@echo "... Expression_Eval/Infix"
 	@echo "... Expression_Eval/Postfix"
 	@echo "... Expression_Eval/Prefix"
+	@echo "... Expression_Eval_Stack/eval_postfix"
+	@echo "... Expression_Eval_Stack/eval_prefix"
 	@echo "... Matrix/matrix1"
 	@echo "... Matrix/matrix2"
 	@echo "... Polynomial_Addition/polynomialaddition_array0"
@@ -714,54 +866,66 @@ help:
 	@echo "... Polynomial_Addition/polynomialaddition_pointer"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.o"
-	@echo "... src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.i"
-	@echo "... src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.s"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot.o"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot.i"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot.s"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.o"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.i"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.s"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.o"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.i"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot2.s"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.o"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.i"
-	@echo "... src/BinaryTree(Rotation)(13MA20004)/bintree_rot3.s"
-	@echo "... src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.o"
-	@echo "... src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.i"
-	@echo "... src/BinaryTree(Traversal)(13MA20004)/bintree_traversal.s"
-	@echo "... src/DynamicSet(13MA20004)/dynamic_set_array_based.o"
-	@echo "... src/DynamicSet(13MA20004)/dynamic_set_array_based.i"
-	@echo "... src/DynamicSet(13MA20004)/dynamic_set_array_based.s"
-	@echo "... src/DynamicSet(13MA20004)/dynamic_set_pointer_based.o"
-	@echo "... src/DynamicSet(13MA20004)/dynamic_set_pointer_based.i"
-	@echo "... src/DynamicSet(13MA20004)/dynamic_set_pointer_based.s"
-	@echo "... src/ExpressionEvaluation(13MA20004)/infix.o"
-	@echo "... src/ExpressionEvaluation(13MA20004)/infix.i"
-	@echo "... src/ExpressionEvaluation(13MA20004)/infix.s"
-	@echo "... src/ExpressionEvaluation(13MA20004)/postfix.o"
-	@echo "... src/ExpressionEvaluation(13MA20004)/postfix.i"
-	@echo "... src/ExpressionEvaluation(13MA20004)/postfix.s"
-	@echo "... src/ExpressionEvaluation(13MA20004)/prefix.o"
-	@echo "... src/ExpressionEvaluation(13MA20004)/prefix.i"
-	@echo "... src/ExpressionEvaluation(13MA20004)/prefix.s"
-	@echo "... src/Matrix(13MA20004)/Matrix0.o"
-	@echo "... src/Matrix(13MA20004)/Matrix0.i"
-	@echo "... src/Matrix(13MA20004)/Matrix0.s"
-	@echo "... src/Matrix(13MA20004)/Matrix1.o"
-	@echo "... src/Matrix(13MA20004)/Matrix1.i"
-	@echo "... src/Matrix(13MA20004)/Matrix1.s"
-	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_array0.o"
-	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_array0.i"
-	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_array0.s"
-	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_0.o"
-	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_0.i"
-	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_0.s"
-	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_1.o"
-	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_1.i"
-	@echo "... src/PolynomialAddition(13MA20004)/merge_sorted_list_1.s"
+	@echo "... src/BinaryTree(Recursion)/bintree_recursion.o"
+	@echo "... src/BinaryTree(Recursion)/bintree_recursion.i"
+	@echo "... src/BinaryTree(Recursion)/bintree_recursion.s"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot.o"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot.i"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot.s"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot1.o"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot1.i"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot1.s"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot2.o"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot2.i"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot2.s"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot3.o"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot3.i"
+	@echo "... src/BinaryTree(Rotation)/bintree_rot3.s"
+	@echo "... src/BinaryTree(Traversal)/bintree_inorder_dft.o"
+	@echo "... src/BinaryTree(Traversal)/bintree_inorder_dft.i"
+	@echo "... src/BinaryTree(Traversal)/bintree_inorder_dft.s"
+	@echo "... src/BinaryTree(Traversal)/bintree_postorder_dft.o"
+	@echo "... src/BinaryTree(Traversal)/bintree_postorder_dft.i"
+	@echo "... src/BinaryTree(Traversal)/bintree_postorder_dft.s"
+	@echo "... src/BinaryTree(Traversal)/bintree_preorder_dft.o"
+	@echo "... src/BinaryTree(Traversal)/bintree_preorder_dft.i"
+	@echo "... src/BinaryTree(Traversal)/bintree_preorder_dft.s"
+	@echo "... src/DynamicSet/dynamic_set_array_based.o"
+	@echo "... src/DynamicSet/dynamic_set_array_based.i"
+	@echo "... src/DynamicSet/dynamic_set_array_based.s"
+	@echo "... src/DynamicSet/dynamic_set_pointer_based.o"
+	@echo "... src/DynamicSet/dynamic_set_pointer_based.i"
+	@echo "... src/DynamicSet/dynamic_set_pointer_based.s"
+	@echo "... src/ExpressionEvaluation(Using_Stack)/eval_postfix.o"
+	@echo "... src/ExpressionEvaluation(Using_Stack)/eval_postfix.i"
+	@echo "... src/ExpressionEvaluation(Using_Stack)/eval_postfix.s"
+	@echo "... src/ExpressionEvaluation(Using_Stack)/eval_prefix.o"
+	@echo "... src/ExpressionEvaluation(Using_Stack)/eval_prefix.i"
+	@echo "... src/ExpressionEvaluation(Using_Stack)/eval_prefix.s"
+	@echo "... src/ExpressionEvaluation/infix.o"
+	@echo "... src/ExpressionEvaluation/infix.i"
+	@echo "... src/ExpressionEvaluation/infix.s"
+	@echo "... src/ExpressionEvaluation/postfix.o"
+	@echo "... src/ExpressionEvaluation/postfix.i"
+	@echo "... src/ExpressionEvaluation/postfix.s"
+	@echo "... src/ExpressionEvaluation/prefix.o"
+	@echo "... src/ExpressionEvaluation/prefix.i"
+	@echo "... src/ExpressionEvaluation/prefix.s"
+	@echo "... src/Matrix/Matrix0.o"
+	@echo "... src/Matrix/Matrix0.i"
+	@echo "... src/Matrix/Matrix0.s"
+	@echo "... src/Matrix/Matrix1.o"
+	@echo "... src/Matrix/Matrix1.i"
+	@echo "... src/Matrix/Matrix1.s"
+	@echo "... src/PolynomialAddition/merge_sorted_array0.o"
+	@echo "... src/PolynomialAddition/merge_sorted_array0.i"
+	@echo "... src/PolynomialAddition/merge_sorted_array0.s"
+	@echo "... src/PolynomialAddition/merge_sorted_list_0.o"
+	@echo "... src/PolynomialAddition/merge_sorted_list_0.i"
+	@echo "... src/PolynomialAddition/merge_sorted_list_0.s"
+	@echo "... src/PolynomialAddition/merge_sorted_list_1.o"
+	@echo "... src/PolynomialAddition/merge_sorted_list_1.i"
+	@echo "... src/PolynomialAddition/merge_sorted_list_1.s"
 .PHONY : help
 
 

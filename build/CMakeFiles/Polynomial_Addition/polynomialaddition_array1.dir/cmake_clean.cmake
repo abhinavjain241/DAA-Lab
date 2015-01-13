@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition(13MA20004)/merge_sorted_list_1.c.o"
+  "CMakeFiles/Polynomial_Addition/polynomialaddition_array1.dir/src/PolynomialAddition/merge_sorted_list_1.c.o"
   "Polynomial_Addition/polynomialaddition_array1.pdb"
   "Polynomial_Addition/polynomialaddition_array1"
 )

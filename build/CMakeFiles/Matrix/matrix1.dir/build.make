@@ -49,37 +49,37 @@ include CMakeFiles/Matrix/matrix1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Matrix/matrix1.dir/flags.make
 
-CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o: CMakeFiles/Matrix/matrix1.dir/flags.make
-CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o: ../src/Matrix(13MA20004)/Matrix0.c
+CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o: CMakeFiles/Matrix/matrix1.dir/flags.make
+CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o: ../src/Matrix/Matrix0.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o "CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o"   -c "/home/abhinav/DAA-LAB/DAA-Lab/src/Matrix(13MA20004)/Matrix0.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o   -c /home/abhinav/DAA-LAB/DAA-Lab/src/Matrix/Matrix0.c
 
-CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E "/home/abhinav/DAA-LAB/DAA-Lab/src/Matrix(13MA20004)/Matrix0.c" > "CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.i"
+CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/abhinav/DAA-LAB/DAA-Lab/src/Matrix/Matrix0.c > CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.i
 
-CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S "/home/abhinav/DAA-LAB/DAA-Lab/src/Matrix(13MA20004)/Matrix0.c" -o "CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.s"
+CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/abhinav/DAA-LAB/DAA-Lab/src/Matrix/Matrix0.c -o CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.s
 
-CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o.requires:
-.PHONY : CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o.requires
+CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o.requires:
+.PHONY : CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o.requires
 
-CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o.provides: CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o.requires
-	$(MAKE) -f CMakeFiles/Matrix/matrix1.dir/build.make "CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o.provides.build"
-.PHONY : CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o.provides
+CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o.provides: CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o.requires
+	$(MAKE) -f CMakeFiles/Matrix/matrix1.dir/build.make CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o.provides.build
+.PHONY : CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o.provides
 
-CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o.provides.build: CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o
+CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o.provides.build: CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o
 
 # Object files for target Matrix/matrix1
 Matrix/matrix1_OBJECTS = \
-"CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o"
+"CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o"
 
 # External object files for target Matrix/matrix1
 Matrix/matrix1_EXTERNAL_OBJECTS =
 
-Matrix/matrix1: CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o
+Matrix/matrix1: CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o
 Matrix/matrix1: CMakeFiles/Matrix/matrix1.dir/build.make
 Matrix/matrix1: CMakeFiles/Matrix/matrix1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable Matrix/matrix1"
@@ -89,7 +89,7 @@ Matrix/matrix1: CMakeFiles/Matrix/matrix1.dir/link.txt
 CMakeFiles/Matrix/matrix1.dir/build: Matrix/matrix1
 .PHONY : CMakeFiles/Matrix/matrix1.dir/build
 
-CMakeFiles/Matrix/matrix1.dir/requires: CMakeFiles/Matrix/matrix1.dir/src/Matrix(13MA20004)/Matrix0.c.o.requires
+CMakeFiles/Matrix/matrix1.dir/requires: CMakeFiles/Matrix/matrix1.dir/src/Matrix/Matrix0.c.o.requires
 .PHONY : CMakeFiles/Matrix/matrix1.dir/requires
 
 CMakeFiles/Matrix/matrix1.dir/clean:

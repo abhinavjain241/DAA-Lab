@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/abhinav/DAA-LAB/DAA-Lab/src/DynamicSet(13MA20004)/dynamic_set_array_based.c
+/home/abhinav/DAA-LAB/DAA-Lab/src/DynamicSet/dynamic_set_array_based.c
 stdio.h
 -
 

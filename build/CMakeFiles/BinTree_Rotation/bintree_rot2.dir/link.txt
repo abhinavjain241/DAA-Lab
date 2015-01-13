@@ -1,1 +1,1 @@
-/usr/bin/cc      "CMakeFiles/BinTree_Rotation/bintree_rot2.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.o"  -o BinTree_Rotation/bintree_rot2 -rdynamic 
+/usr/bin/cc      "CMakeFiles/BinTree_Rotation/bintree_rot2.dir/src/BinaryTree(Rotation)/bintree_rot1.c.o"  -o BinTree_Rotation/bintree_rot2 -rdynamic 

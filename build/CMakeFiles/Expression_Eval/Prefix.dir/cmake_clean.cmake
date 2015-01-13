@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/Expression_Eval/Prefix.dir/src/ExpressionEvaluation(13MA20004)/prefix.c.o"
+  "CMakeFiles/Expression_Eval/Prefix.dir/src/ExpressionEvaluation/prefix.c.o"
   "Expression_Eval/Prefix.pdb"
   "Expression_Eval/Prefix"
 )

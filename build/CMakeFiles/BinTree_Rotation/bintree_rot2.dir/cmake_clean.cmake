@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/BinTree_Rotation/bintree_rot2.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot1.c.o"
+  "CMakeFiles/BinTree_Rotation/bintree_rot2.dir/src/BinaryTree(Rotation)/bintree_rot1.c.o"
   "BinTree_Rotation/bintree_rot2.pdb"
   "BinTree_Rotation/bintree_rot2"
 )

@@ -1,0 +1,1 @@
+/usr/bin/cc      "CMakeFiles/Expression_Eval_Stack/eval_prefix.dir/src/ExpressionEvaluation(Using_Stack)/eval_prefix.c.o"  -o Expression_Eval_Stack/eval_prefix -rdynamic 

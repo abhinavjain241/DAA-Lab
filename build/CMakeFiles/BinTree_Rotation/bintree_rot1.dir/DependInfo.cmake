@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c" "/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o"
+  "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Rotation)/bintree_rot.c" "/home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

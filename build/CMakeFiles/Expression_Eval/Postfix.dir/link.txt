@@ -1,1 +1,1 @@
-/usr/bin/cc      "CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o"  -o Expression_Eval/Postfix -rdynamic 
+/usr/bin/cc      CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o  -o Expression_Eval/Postfix -rdynamic 

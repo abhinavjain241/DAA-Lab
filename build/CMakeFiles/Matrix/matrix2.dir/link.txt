@@ -1,1 +1,1 @@
-/usr/bin/cc      "CMakeFiles/Matrix/matrix2.dir/src/Matrix(13MA20004)/Matrix1.c.o"  -o Matrix/matrix2 -rdynamic 
+/usr/bin/cc      CMakeFiles/Matrix/matrix2.dir/src/Matrix/Matrix1.c.o  -o Matrix/matrix2 -rdynamic 

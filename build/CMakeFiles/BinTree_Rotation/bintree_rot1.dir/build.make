@@ -49,37 +49,37 @@ include CMakeFiles/BinTree_Rotation/bintree_rot1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BinTree_Rotation/bintree_rot1.dir/flags.make
 
-CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/flags.make
-CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o: ../src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c
+CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/flags.make
+CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o: ../src/BinaryTree(Rotation)/bintree_rot.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o"   -c "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o"   -c "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Rotation)/bintree_rot.c"
 
-CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c" > "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.i"
+CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Rotation)/bintree_rot.c" > "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.i"
 
-CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c" -o "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.s"
+CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Rotation)/bintree_rot.c" -o "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.s"
 
-CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o.requires:
-.PHONY : CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o.requires
+CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o.requires:
+.PHONY : CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o.requires
 
-CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o.provides: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o.requires
-	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o.provides.build"
-.PHONY : CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o.provides
+CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o.provides: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o.requires
+	$(MAKE) -f CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build.make "CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o.provides.build"
+.PHONY : CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o.provides
 
-CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o.provides.build: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o
+CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o.provides.build: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o
 
 # Object files for target BinTree_Rotation/bintree_rot1
 BinTree_Rotation/bintree_rot1_OBJECTS = \
-"CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o"
+"CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o"
 
 # External object files for target BinTree_Rotation/bintree_rot1
 BinTree_Rotation/bintree_rot1_EXTERNAL_OBJECTS =
 
-BinTree_Rotation/bintree_rot1: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o
+BinTree_Rotation/bintree_rot1: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o
 BinTree_Rotation/bintree_rot1: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build.make
 BinTree_Rotation/bintree_rot1: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable BinTree_Rotation/bintree_rot1"
@@ -89,7 +89,7 @@ BinTree_Rotation/bintree_rot1: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/link
 CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build: BinTree_Rotation/bintree_rot1
 .PHONY : CMakeFiles/BinTree_Rotation/bintree_rot1.dir/build
 
-CMakeFiles/BinTree_Rotation/bintree_rot1.dir/requires: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)(13MA20004)/bintree_rot.c.o.requires
+CMakeFiles/BinTree_Rotation/bintree_rot1.dir/requires: CMakeFiles/BinTree_Rotation/bintree_rot1.dir/src/BinaryTree(Rotation)/bintree_rot.c.o.requires
 .PHONY : CMakeFiles/BinTree_Rotation/bintree_rot1.dir/requires
 
 CMakeFiles/BinTree_Rotation/bintree_rot1.dir/clean:

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation(13MA20004)/postfix.c
+/home/abhinav/DAA-LAB/DAA-Lab/src/ExpressionEvaluation/postfix.c
 stdio.h
 -
 

@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation(13MA20004)/postfix.c.o"
+  "CMakeFiles/Expression_Eval/Postfix.dir/src/ExpressionEvaluation/postfix.c.o"
   "Expression_Eval/Postfix.pdb"
   "Expression_Eval/Postfix"
 )

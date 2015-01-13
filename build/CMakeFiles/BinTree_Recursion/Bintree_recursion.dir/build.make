@@ -49,37 +49,37 @@ include CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/flags.make
 
-CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/flags.make
-CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o: ../src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c
+CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/flags.make
+CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o: ../src/BinaryTree(Recursion)/bintree_recursion.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/DAA-LAB/DAA-Lab/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o"   -c "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o"   -c "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Recursion)/bintree_recursion.c"
 
-CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c" > "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.i"
+CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Recursion)/bintree_recursion.c" > "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.i"
 
-CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c" -o "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.s"
+CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S "/home/abhinav/DAA-LAB/DAA-Lab/src/BinaryTree(Recursion)/bintree_recursion.c" -o "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.s"
 
-CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o.requires:
-.PHONY : CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o.requires
+CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o.requires:
+.PHONY : CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o.requires
 
-CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o.provides: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o.requires
-	$(MAKE) -f CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build.make "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o.provides.build"
-.PHONY : CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o.provides
+CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o.provides: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o.requires
+	$(MAKE) -f CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build.make "CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o.provides.build"
+.PHONY : CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o.provides
 
-CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o.provides.build: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o
+CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o.provides.build: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o
 
 # Object files for target BinTree_Recursion/Bintree_recursion
 BinTree_Recursion/Bintree_recursion_OBJECTS = \
-"CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o"
+"CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o"
 
 # External object files for target BinTree_Recursion/Bintree_recursion
 BinTree_Recursion/Bintree_recursion_EXTERNAL_OBJECTS =
 
-BinTree_Recursion/Bintree_recursion: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o
+BinTree_Recursion/Bintree_recursion: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o
 BinTree_Recursion/Bintree_recursion: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build.make
 BinTree_Recursion/Bintree_recursion: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable BinTree_Recursion/Bintree_recursion"
@@ -89,7 +89,7 @@ BinTree_Recursion/Bintree_recursion: CMakeFiles/BinTree_Recursion/Bintree_recurs
 CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build: BinTree_Recursion/Bintree_recursion
 .PHONY : CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/build
 
-CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/requires: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)(13MA20004)/bintree_recursion.c.o.requires
+CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/requires: CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/src/BinaryTree(Recursion)/bintree_recursion.c.o.requires
 .PHONY : CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/requires
 
 CMakeFiles/BinTree_Recursion/Bintree_recursion.dir/clean:
