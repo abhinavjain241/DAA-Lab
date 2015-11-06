@@ -1,1 +1,0 @@
-/usr/bin/cc      "CMakeFiles/BinTree_Traversal/bintree_inorder_dft.dir/src/BinaryTree(Traversal)/bintree_inorder_dft.c.o"  -o BinTree_Traversal/bintree_inorder_dft -rdynamic 

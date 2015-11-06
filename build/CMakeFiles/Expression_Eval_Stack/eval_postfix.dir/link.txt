@@ -1,1 +1,0 @@
-/usr/bin/cc      "CMakeFiles/Expression_Eval_Stack/eval_postfix.dir/src/ExpressionEvaluation(Using_Stack)/eval_postfix.c.o"  -o Expression_Eval_Stack/eval_postfix -rdynamic 

@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/Polynomial_Addition/polynomialaddition_array0.dir/src/PolynomialAddition/merge_sorted_array0.c.o  -o Polynomial_Addition/polynomialaddition_array0 -rdynamic 

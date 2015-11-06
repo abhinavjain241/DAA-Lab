@@ -1,1 +1,0 @@
-/usr/bin/cc      "CMakeFiles/BinTree_Rotation/bintree_rot4.dir/src/BinaryTree(Rotation)/bintree_rot3.c.o"  -o BinTree_Rotation/bintree_rot4 -rdynamic 

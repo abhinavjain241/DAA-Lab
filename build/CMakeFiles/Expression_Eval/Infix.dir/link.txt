@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/Expression_Eval/Infix.dir/src/ExpressionEvaluation/infix.c.o  -o Expression_Eval/Infix -rdynamic 
